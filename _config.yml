@@ -1,0 +1,9 @@
+markdown: rdiscount
+pygments: true
+rdiscount:
+  extensions: [smart, autolink]
+
+
+name: Sai Venkat's blog
+description: Multicore and other stuff blog
+url: http://saivenkat.github.com
