@@ -16,6 +16,10 @@ increasing throughput. while concurrency doesn't exactly focus (just) on this bu
 so that things remain sane when things which could go parallel go
 parallel. (Not really short as expected :). 
 
+The odd thing is having concurrency doesn't always speed much things. In
+a cases things go slower than just sequential execution cause of various
+reasons (contention on resources is one of them).
+
 Parallel is easier to define. When you have independent tasks which needs
 no coordination among them, they fall into the category of parallel.
 Parallel is in my opinion a subset of concurrent. There is a strong
