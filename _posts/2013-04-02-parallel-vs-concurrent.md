@@ -8,12 +8,17 @@ day: 2
 published: true
 ---
 
-Well a lot of people are taking a stab at the parallel vs concurrent
+Well a lot of out there are taking a stab at the parallel vs concurrent
 definitions and here is mine. 
 
+In short, parallelism is purely focussed on getting things done faster
+while concurrency doesn't exactly focus on this but more on coordination
+so that things remain sane when things which could go parallel go
+parallel. (Not really short as expected :). 
+
 Parallel is easier to define. When you have independent tasks which needs
-no coordination among them they fall into the category of parallel.
-Parallel is in my opinion a subset of concurrent. There is a strict
+no coordination among them, they fall into the category of parallel.
+Parallel is in my opinion a subset of concurrent. There is a strong
 condition in parallel processing that when things if they  can be run at the same
 time they should be. There are different aspect of parallelism as task
 parallelism or data parallelism which we will not go into this time. 
