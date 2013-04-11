@@ -11,8 +11,8 @@ published: true
 Well a lot of out there are taking a stab at the parallel vs concurrent
 definitions and here is mine. 
 
-In short, parallelism is purely focussed on getting things done faster
-while concurrency doesn't exactly focus on this but more on coordination
+In short, parallelism is purely focussed on getting things done faster,
+increasing throughput. while concurrency doesn't exactly focus (just) on this but more on coordination
 so that things remain sane when things which could go parallel go
 parallel. (Not really short as expected :). 
 
