@@ -27,7 +27,7 @@ We fall into the category concurrent when we start talking about
 coordination. Parallel starts with or eventually leads to concurrency at some point of
 time for communication and coordination of parallel processors.
 Concurrent programming has another aspect which is weaker than parallel
-is concurrent is defined as tasks don't have dependency on order of
+is, concurrent is defined as tasks don't have dependency on order of
 execution. They could run together, or one after another or in reverse
 order and all have the same effect. So concurrent doesn't really make
 any promises on how things run just that no dependency.
